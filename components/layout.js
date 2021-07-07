@@ -6,7 +6,7 @@ export default function Layout({ children }) {
     <>
       {/* Meta tag will be here */}
       <Meta />
-      <div className="w-screen">
+      <div className="w-full">
         <NavBar />
         <main>{children}</main>
       </div>

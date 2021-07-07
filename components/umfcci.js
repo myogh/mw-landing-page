@@ -4,12 +4,12 @@ import Image from "next/dist/client/image";
 export default function UMFCCI() {
   return (
     <>
-      <div className="bg-gray-50 max-w-screen-2xl mx-auto mt-24 py-10 px-3 flex flex-wrap-reverse justify-center items-center">
-        <div className="xl:pr-5 px-6 sm:px-0 mt-5 md:mt-0 flex md:max-w-lg flex-col items-center md:items-end md:pr-12 lg:mr-20">
-          <h1 className="font-ptserif text-2xl sm:text-4xl font-medium text-right">
+      <div className="max-w-screen-2xl mx-auto mt-24 py-10 px-6 grid grid-cols-12 md:gap-4 gap-y-3 justify-center items-center">
+        <div className="md:px-0 md:mt-5 col-span-full order-2 md:order-1 md:col-start-2 md:col-end-7 flex flex-col items-center md:items-end">
+          <h1 className="font-ptserif flex-shrink text-2xl lg:text-4xl font-medium text-right">
             MEMBER OF UMFCCI
           </h1>
-          <p className="font-poppins text-gray-500 mt-3 text-center md:text-right md:w-full max-w-xl">
+          <p className="font-poppins text-gray-500 mt-3 text-center md:text-sm xl:text-base md:text-right">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
             eiusmod tempor incididunt ut labore et sdien ina dolore magna
@@ -18,7 +18,7 @@ export default function UMFCCI() {
             aliqua“
           </p>
         </div>
-        <div className="max-w-sm w-48 lg:w-60 md:max-w-lg justify-self-center">
+        <div className="w-56 lg:w-80 col-span-full order-1 md:order-2 md:col-start-7 md:col-end-12 lg:pl-10 justify-self-center">
           <Image
             src={UMFCCILogo}
             alt="vector image for hero section of the page"

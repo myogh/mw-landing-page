@@ -21,6 +21,9 @@ module.exports = {
       gridAutoRows: {
         "273px": "minmax(0, 273px)",
       },
+      backgroundImage: (theme) => ({
+        "product-wedeal": "url('../public/images/productwedeal.jpg')",
+      }),
     },
   },
   variants: {

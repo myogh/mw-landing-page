@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 import UMFCCI from "../components/umfcci";
 import HowWeOperate from "../components/operate-section";
+import ProductWeDeal from "../components/products-we-deal";
 import Head from "next/head";
 
 export default function Home() {
@@ -16,7 +17,7 @@ export default function Home() {
         <Hero />
         <HowWeOperate />
         <UMFCCI />
-
+        <ProductWeDeal />
         {/* <OperateCard /> */}
         {/* hero section */}
         {/* what we do section */}
