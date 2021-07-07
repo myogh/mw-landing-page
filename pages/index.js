@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import Hero from "../components/hero";
-import OperateCard from "../components/operate-card";
+import UMFCCI from "../components/umfcci";
 import HowWeOperate from "../components/operate-section";
 import Head from "next/head";
 
@@ -15,6 +15,8 @@ export default function Home() {
         </Head>
         <Hero />
         <HowWeOperate />
+        <UMFCCI />
+
         {/* <OperateCard /> */}
         {/* hero section */}
         {/* what we do section */}

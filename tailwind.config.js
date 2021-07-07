@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         rubik: "'Rubik', sans-serif",
         poppins: "'Poppins', sans-serif",
+        ptserif: "'PT Serif', serif",
       },
       colors: {
         primary: {
