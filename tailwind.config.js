@@ -17,6 +17,9 @@ module.exports = {
           dark: "#223134",
         },
       },
+      gridAutoRows: {
+        "273px": "minmax(0, 273px)",
+      },
     },
   },
   variants: {
