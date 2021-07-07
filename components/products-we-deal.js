@@ -4,7 +4,7 @@ import ProductImg from "../public/images/productwedeal.jpg";
 export default function ProductWeDeal() {
   return (
     <>
-      <div className="mt-14 bg-product-wedeal relative bg-opacity-10 bg-gray-400 lg:bg-none bg-cover bg-center py-10 px-6 grid grid-cols-12 justify-center items-center">
+      <div className="mt-14 bg-product-wedeal relative bg-opacity-10 bg-gray-400 lg:bg-none bg-cover bg-center py-24 lg:py-36 px-14 md:px-8 grid grid-cols-12 justify-center items-center">
         <div className="hidden lg:block col-span-12 max-w-sm md:max-w-lg justify-self-center lg:col-start-2 lg:col-end-7 lg:pl-5">
           <Image
             className="rounded-2xl"
@@ -25,12 +25,12 @@ export default function ProductWeDeal() {
             aliqua“
           </p>
           <div className="mt-4">
-            <a className="text-gray-50 cursor-pointer inline-block rounded-md bg-primary-light text-md px-4 py-2 lg:hover:bg-primary-dark lg:transition-all lg:duration-300">
-              More Info <span className="inline">→</span>
+            <a className="text-gray-50 cursor-pointer inline-block rounded-md bg-primary text-md px-4 py-2 transform lg:hover:scale-95 lg:transition-all lg:duration-300">
+              More Info <span>→</span>
             </a>
           </div>
         </div>
-        <div className="bg-primary-dark absolute z-2 top-0 left-0 opacity-80 w-full h-full lg:hidden"></div>
+        <div className="bg-gradient-to-t from-primary-light via-primary to-primary-dark  absolute z-2 top-0 left-0 opacity-90 w-full h-full lg:hidden"></div>
       </div>
     </>
   );

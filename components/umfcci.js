@@ -4,7 +4,7 @@ import Image from "next/dist/client/image";
 export default function UMFCCI() {
   return (
     <>
-      <div className="max-w-screen-2xl mx-auto mt-24 py-10 px-6 grid grid-cols-12 md:gap-4 gap-y-3 justify-center items-center">
+      <div className="max-w-screen-2xl mx-auto mt-8 py-10 px-6 grid grid-cols-12 md:gap-4 gap-y-3 justify-center items-center">
         <div className="md:px-0 md:mt-5 col-span-full order-2 md:order-1 md:col-start-2 md:col-end-7 flex flex-col items-center md:items-end">
           <h1 className="font-ptserif flex-shrink text-2xl lg:text-4xl font-medium text-right">
             MEMBER OF UMFCCI

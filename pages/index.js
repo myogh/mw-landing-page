@@ -15,14 +15,9 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Hero />
-        <HowWeOperate />
         <UMFCCI />
+        <HowWeOperate />
         <ProductWeDeal />
-        {/* <OperateCard /> */}
-        {/* hero section */}
-        {/* what we do section */}
-        {/* umfcci section */}
-        {/* products we deal with section */}
       </Layout>
     </div>
   );
