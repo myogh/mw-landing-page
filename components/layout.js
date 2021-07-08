@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <div className="w-full">
         <NavBar />
         <main>{children}</main>
-        <Footer />
+        {/* <Footer /> */}
       </div>
       {/* footer will be here */}
     </>

@@ -6,6 +6,9 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+      borderWidth: {
+        3: "3px",
+      },
       fontFamily: {
         rubik: "'Rubik', sans-serif",
         poppins: "'Poppins', sans-serif",
