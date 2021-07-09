@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ContactSvg from "../public/contact.svg";
-import Button from "./button";
+import MailBtn from "./mail-btn";
 
 export default function ContactUs() {
   return (
@@ -13,7 +13,9 @@ export default function ContactUs() {
           />
         </div>
         <div className="col-span-12 md:col-start-8 md:col-end-12 xl:pr-5 flex flex-col items-center md:items-start mt-12">
-          <h1 className="font-rubik text-3xl">Contact Us</h1>
+          <h1 className="font-rubik text-2xl lg:text-4xl">
+            Have Any Questions?
+          </h1>
           <p className="font-poppins text-gray-500 mt-3 text-center md:text-left md:w-full max-w-xl">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
@@ -22,7 +24,7 @@ export default function ContactUs() {
             alihhqua. eiusmod tempor incididunt ut labore et dolore magna
             aliqua“
           </p>
-          <Button text="Mail Us" />
+          <MailBtn />
         </div>
       </div>
     </>

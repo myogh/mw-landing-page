@@ -25,7 +25,9 @@ export default function ProductWeDeal() {
             alihhqua. eiusmod tempor incididunt ut labore et dolore magna
             aliqua“
           </p>
-          <Button text="More Info" />
+          <Button link="/products">
+            More Info <span>→</span>
+          </Button>
         </div>
         <div className="bg-gradient-to-t from-primary-light via-primary to-primary-dark  absolute z-2 top-0 left-0 opacity-90 w-full h-full lg:hidden"></div>
       </div>

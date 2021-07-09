@@ -20,6 +20,11 @@ module.exports = {
           DEFAULT: "#374548",
           dark: "#223134",
         },
+        secondary: {
+          light: "#ff771b",
+          DEFAULT: "#ff9044",
+          dark: "#ffbc8ef",
+        },
       },
       gridAutoRows: {
         "273px": "minmax(0, 273px)",
