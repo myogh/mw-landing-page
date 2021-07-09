@@ -21,9 +21,9 @@ module.exports = {
           dark: "#223134",
         },
         secondary: {
-          light: "#ff771b",
+          light: "#ffbc8e60",
           DEFAULT: "#ff9044",
-          dark: "#ffbc8ef",
+          dark: "#ff771b",
         },
       },
       gridAutoRows: {
