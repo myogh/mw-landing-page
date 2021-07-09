@@ -12,7 +12,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="max-w-screen-2xl mx-auto flex px-9 justify-between items-top mt-8">
+      <div className="max-w-screen-2xl pb-4 mx-auto flex px-9 justify-between items-top mt-8">
         <div className="w-56 sm:w-max">
           <Link href="/">
             <a>
