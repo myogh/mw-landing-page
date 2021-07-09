@@ -5,14 +5,12 @@ import Footer from "./footer";
 export default function Layout({ children }) {
   return (
     <>
-      {/* Meta tag will be here */}
       <Meta />
       <div className="w-full">
         <NavBar />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </div>
-      {/* footer will be here */}
     </>
   );
 }

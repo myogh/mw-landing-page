@@ -1,5 +1,6 @@
 import Image from "next/dist/client/image";
 import ProductImg from "../public/images/productwedeal.jpg";
+import Button from "./button";
 
 export default function ProductWeDeal() {
   return (
@@ -24,11 +25,7 @@ export default function ProductWeDeal() {
             alihhqua. eiusmod tempor incididunt ut labore et dolore magna
             aliqua“
           </p>
-          <div className="mt-4">
-            <a className="text-gray-50 cursor-pointer inline-block rounded-md bg-primary text-md px-4 py-2 transform lg:hover:scale-95 lg:transition-all lg:duration-300">
-              More Info <span>→</span>
-            </a>
-          </div>
+          <Button text="More Info" />
         </div>
         <div className="bg-gradient-to-t from-primary-light via-primary to-primary-dark  absolute z-2 top-0 left-0 opacity-90 w-full h-full lg:hidden"></div>
       </div>
