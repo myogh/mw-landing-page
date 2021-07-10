@@ -1,4 +1,4 @@
-import UMFCCILogo from "../public/umfcci-logo.svg";
+import UMFCCILogo from "../public/svg/umfcci-logo.svg";
 import Image from "next/dist/client/image";
 
 export default function UMFCCI() {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ContactSvg from "../public/contact.svg";
+import ContactSvg from "../public/svg/contact.svg";
 import MailBtn from "./mail-btn";
 
 export default function ContactUs() {

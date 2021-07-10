@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MailIcon from "../public/email_icon.svg";
+import MailIcon from "../public/svg/email_icon.svg";
 
 export default function MailBtn() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Plant from "../public/footer-plant.svg";
+import Plant from "../public/svg/footer-plant.svg";
 
 export default function Footer() {
   return (

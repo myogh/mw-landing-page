@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ExportIcon from "../public/export.svg";
+import ExportIcon from "../public/svg/export.svg";
 
 export default function OperateCard({ icon, subheading, description }) {
   return (

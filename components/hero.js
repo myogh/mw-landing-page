@@ -1,6 +1,6 @@
 import Image from "next/image";
-import HeroImg from "../public/hero-img.svg";
-import ComProfile from "../public/com-profile-text.svg";
+import HeroImg from "../public/svg/hero-img.svg";
+import ComProfile from "../public/svg/com-profile-text.svg";
 
 export default function Hero() {
   return (
