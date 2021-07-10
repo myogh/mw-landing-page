@@ -1,10 +1,11 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import Exports from "../components/exports";
+import Imports from "../components/imports";
 
 export default function Products() {
   return (
-    <div className="min-h-screen">
+    <div>
       <Layout>
         <Head>
           <title>Products</title>
@@ -12,6 +13,7 @@ export default function Products() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Exports />
+        <Imports />
       </Layout>
     </div>
   );

@@ -1,5 +1,5 @@
-import ProductItem from "./product-item";
-import { productImgs } from "../constants/products-img-list";
+import ExportItem from "./export-item";
+import { exportProductImgs } from "../constants/exports-img-list";
 
 export default function Exports() {
   return (
@@ -9,8 +9,8 @@ export default function Exports() {
           OUR EXPORTS
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 gap-y-6 border-t-2 border-primary-dark py-16 z-10 -mt-5 rounded-lg">
-          {productImgs.map((product) => (
-            <ProductItem
+          {exportProductImgs.map((product) => (
+            <ExportItem
               key={product.name}
               img={product.img}
               name={product.name}

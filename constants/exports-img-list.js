@@ -8,8 +8,9 @@ import BEBean from "../public/images/products/black_eyed_beans.jpg";
 import Onion from "../public/images/products/onion.jpg";
 import BDuck from "../public/images/products/bombay_duck.jpg";
 import DFish from "../public/images/products/dry_fish.jpg";
+import UDhal from "../public/images/products/urid_dhal.jpg";
 
-export const productImgs = [
+export const exportProductImgs = [
   {
     name: "Black Mapte",
     img: BMapte,
@@ -17,6 +18,10 @@ export const productImgs = [
   {
     name: "Green Mong",
     img: GMong,
+  },
+  {
+    name: "Urid Dhal",
+    img: UDhal,
   },
   {
     name: "Moong Dhal",

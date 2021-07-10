@@ -4,7 +4,7 @@ import ContactUs from "../components/contact-us";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen">
+    <div>
       <Layout>
         <Head>
           <title>Create Next App</title>
