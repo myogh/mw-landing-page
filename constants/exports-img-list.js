@@ -9,6 +9,9 @@ import Onion from "../public/images/products/onion.jpg";
 import BDuck from "../public/images/products/bombay_duck.jpg";
 import DFish from "../public/images/products/dry_fish.jpg";
 import UDhal from "../public/images/products/urid_dhal.jpg";
+import TPowder from "../public/images/products/turmeric_powder.jpg";
+import TFinger from "../public/images/products/turmeric_finger.jpg";
+import Maize from "../public/images/products/maize.jpg";
 
 export const exportProductImgs = [
   {
@@ -48,11 +51,23 @@ export const exportProductImgs = [
     img: Onion,
   },
   {
+    name: "Yellow Maize",
+    img: Maize,
+  },
+  {
+    name: "Turmeric Powder",
+    img: TPowder,
+  },
+  {
+    name: "Turmeric Finger",
+    img: TFinger,
+  },
+  {
     name: "Dry Bombay Duck",
     img: BDuck,
   },
   {
-    name: "Dry Fish",
+    name: "Dry Archovy",
     img: DFish,
   },
 ];
