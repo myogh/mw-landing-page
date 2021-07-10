@@ -17,12 +17,10 @@ export default function ContactUs() {
             Have Any Questions?
           </h1>
           <p className="font-poppins text-gray-500 mt-3 text-center md:text-left md:w-full max-w-xl">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
-            eiusmod tempor incididunt ut labore et sdien ina dolore magna
-            aliqua. eiusmod tempor incididunt ut labore et d ahoif aolore magna
-            alihhqua. eiusmod tempor incididunt ut labore et dolore magna
-            aliqua“
+            “We would be very happy to answer your questions regarding product
+            details, product introduction of yours and prospective
+            collaboration. We are available in Whatsapp, Viber and Telegram. You
+            can also get your queries thorough mails to us.“
           </p>
           <MailBtn />
         </div>

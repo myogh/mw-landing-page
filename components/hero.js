@@ -16,13 +16,12 @@ export default function Hero() {
           <h1 className="w-56 lg:w-64">
             <Image src={ComProfile} alt="company profile" />
           </h1>
-          <p className="font-poppins text-gray-500 text-sm lg:text-base mt-3 text-center md:text-left md:w-full max-w-xl">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
-            eiusmod tempor incididunt ut labore et sdien ina dolore magna
-            aliqua. eiusmod tempor incididunt ut labore et d ahoif aolore magna
-            alihhqua. eiusmod tempor incididunt ut labore et dolore magna
-            aliqua“
+          <p className="font-poppins text-gray-500 text-sm lg:text-lg mt-3 text-center md:text-left md:w-full max-w-xl">
+            “Max World International Co.,Ltd, based in Myanmar, is an esteemed
+            exporter and importer of a wide category of products ranging from
+            pluses and beans to chemicals. With dedicated principles and ethics,
+            we have established a sustained and successful relationship with a
+            number of foreign and local organizations.“
           </p>
         </div>
       </div>

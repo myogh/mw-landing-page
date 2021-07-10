@@ -10,12 +10,12 @@ export default function UMFCCI() {
             MEMBER OF UMFCCI
           </h1>
           <p className="font-poppins text-gray-500 mt-3 text-center md:text-sm xl:text-base md:text-right">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
-            eiusmod tempor incididunt ut labore et sdien ina dolore magna
-            aliqua. eiusmod tempor incididunt ut labore et d ahoif aolore magna
-            alihhqua. eiusmod tempor incididunt ut labore et dolore magna
-            aliqua“
+            “We are a certified memeber of the UNION OF MYANMAR FEDERATION OF
+            CHAMBERS OF COMMERCE AND INDUSTRY (UMFCCI), a national level
+            non-governemental organization representing and safegurading the
+            interests of the private sector.
+            <br /> Member card number: 27449 (23.9.2013)
+            <br /> Export & Import Registration No: HTA-THA-KA/31689“
           </p>
         </div>
         <div className="w-56 lg:w-80 col-span-full order-1 md:order-2 md:col-start-7 md:col-end-12 lg:pl-10 justify-self-center">

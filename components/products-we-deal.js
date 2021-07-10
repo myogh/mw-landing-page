@@ -12,18 +12,26 @@ export default function ProductWeDeal() {
             src={ProductImg}
             alt="Different types of bean in bottles"
           />
+          <div className="text-center  text-gray-400 text-sm mt-1">
+            Photo by{" "}
+            <a href="https://unsplash.com/@bettysubrizi_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Betty Subrizi
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/s/photos/beans?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+              Unsplash
+            </a>
+          </div>
         </div>
         <div className="col-span-12 lg:col-start-8 z-10 lg:col-end-12 xl:pr-5 flex flex-col items-center lg:items-start">
           <h2 className="font-ptserif text-3xl text-white lg:text-gray-900 lg:text-3xl xl:text-4xl font-medium text-left">
             Products We Deal With
           </h2>
           <p className="font-poppins text-gray-200 lg:text-gray-500 mt-3 text-center lg:text-sm xl:text-base lg:text-left md:w-full max-w-xl">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. asidnv
-            eiusmod tempor incididunt ut labore et sdien ina dolore magna
-            aliqua. eiusmod tempor incididunt ut labore et d ahoif aolore magna
-            alihhqua. eiusmod tempor incididunt ut labore et dolore magna
-            aliqua“
+            “There are a variety of products we consider in doing business, and
+            the list keeps alternating based on the market needs. We mostly deal
+            with pulses and agro products for exports. For detailed product
+            list, you can check our product page.“
           </p>
           <Button link="/products">
             More Info <span>→</span>
