@@ -3,7 +3,9 @@ export default function ImportItem({ header, children }) {
     <>
       <div className="border-2 p-4 rounded-xl shadow-md">
         <h3 className="font-rubik text-xl mb-1">{header}</h3>
-        <p className="text-sm text-gray-600 font-light">{children}</p>
+        <p className="text-base text-gray-600 font-poppins font-light">
+          {children}
+        </p>
       </div>
     </>
   );

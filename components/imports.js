@@ -9,24 +9,21 @@ export default function Imports() {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 border-t-2 border-primary-dark py-16 z-10 -mt-5 rounded-lg">
           <ImportItem header="Chemicals">
-            lop dodf isof oisdfe owinfdiseit g cvug r cg b er jhs grek ghf skj
-            wkf dskf wkgh kshf jwkh gkw
+            We procure certain chemicals such as formic acid, caustic soda, soda
+            ash from China.
           </ImportItem>
           <ImportItem header="Used Engines">
-            lop dodf isof oisdfe owinfdiseit g cvug r cg b er jhs grek ghf skj
-            wkf dskf wkgh kshf jwkh gkw
+            Second hand engines, axles, and various car accessories of Toyota
+            brand are imported from Japan.
           </ImportItem>
-          <ImportItem header="Perfume">
-            lop dodf isof oisdfe owinfdiseit g cvug r cg b er jhs grek ghf skj
-            wkf dskf wkgh kshf jwkh gkw
-          </ImportItem>
-          <ImportItem header="Electronic Items">
-            lop dodf isof oisdfe owinfdiseit g cvug r cg b er jhs grek ghf skj
-            wkf dskf wkgh kshf jwkh gkw
+          <ImportItem header="Cosmetic">
+            Charlie brand perfumes, Nivea cosmetics and shampoos of different
+            brands are sourced from Thailand, Dubai, Singapore, Taiwan, Malaysia
+            and India.
           </ImportItem>
           <ImportItem header="Spices">
-            lop dodf isof oisdfe owinfdiseit g cvug r cg b er jhs grek ghf skj
-            wkf dskf wkgh kshf jwkh gkw
+            Spices such as cardamom, black pepper, cumin seed, nut meg are
+            imported from India, Vietnam and Indonesia.
           </ImportItem>
         </div>
       </div>
