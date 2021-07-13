@@ -5,7 +5,7 @@ export default function OperateCard({ icon, subheading, children }) {
     <>
       <div className="flex flex-col items-center text-center py-6 px-4 border border-1 border-gray-400 rounded-xl">
         <div>
-          <Image width="70px" height="70px" src={icon} alt="export icon" />
+          <Image width="70px" height="70px" src={icon} alt={subheading} />
         </div>
         <h3 className="text-xl mt-3 mb-2 font-rubik font-semibold ">
           {subheading}

@@ -8,8 +8,8 @@ export default function ProductWeDeal() {
       <div className="mt-14 bg-product-wedeal relative bg-opacity-10 bg-gray-400 lg:bg-none bg-cover bg-center py-24 lg:py-36 px-14 md:px-8 grid grid-cols-12 justify-center items-center">
         <div className="hidden lg:block col-span-12 max-w-sm md:max-w-lg justify-self-center lg:col-start-2 lg:col-end-7 lg:pl-5">
           <Image
-            className="rounded-2xl"
             src={ProductImg}
+            placeholder="blur"
             alt="Different types of bean in bottles"
           />
           <div className="text-center  text-gray-400 text-sm mt-1">
